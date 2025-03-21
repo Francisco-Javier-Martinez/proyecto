@@ -3,8 +3,4 @@
 define("USUARIO",'root');
 define("PASSWORD",'');
 define("BBDD",'jesuitas');*/
-define("SERVIDOR",'1daw.esvirgua.com');
-define("USUARIO",'user1daw_19');
-define("PASSWORD",'09vP9~3sfbe!');
-define("BBDD",'user1daw_BD1-19')
 ?>
