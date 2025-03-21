@@ -9,18 +9,19 @@
 	$controlador->report_mode = MYSQLI_REPORT_OFF;
 	
 	// Recoge la información del formulario
-	$nomjesu = $_POST["nombrejesuita"];
-	$codigo = $_POST["codigo"];
-	$nomalu = $_POST["nombrealu"];
-	$firmae = $_POST["firmaE"];
-	$firmai = $_POST["firmaI"];
+    $nomjesu = $_POST["nombrejesuita"];
+    $codigo = $_POST["codigo"];
+    $nomalu = $_POST["nombrealu"];
+    $firmae = $_POST["firmaE"];
+    $firmai = $_POST["firmaI"];
 			            
-	$sql = "INSERT INTO jesuita (codigo, nombre, nombreAlumno, firma, firmaIngles) VALUES ('$codigo', '$nombrejesu', '$nombrealumno', '$firma', '$firmaingles');";
+	$sql = "INSERT INTO jesuita (codigo, nombre, nombreAlumno, firma, firmaIngles) VALUES('$codigo', '$nomjesu', '$nomalu', '$firmae', '$firmai');";
 	echo $sql; // Enviar el contenido de la variable al navegador					
 
 	// Ejecuta la consulta
 	$conexion->query($sql);
 	if ($conexion->affected_rows > 0) {
+		echo "<br>";
 		echo "<h2>CONSULTA REALIZADA</h2>";
 	} else {
 		echo "<h2>La consulta no se ha realizado</h2>";
