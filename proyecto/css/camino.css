@@ -1,0 +1,50 @@
+body {
+    margin: 0 auto;
+    width: 1200px;
+    background-color: lightgreen;
+}
+/*PARA EL CUADRADO DE INGLES Y ESPAÑOL*/
+.cuadrado a {
+    text-decoration: none;
+    background-color: #3498db;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+/*PARA LOS PHP*/
+.vali {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    display: inline-block;
+    width: 80%;
+    max-width: 600px;
+    text-align: center;
+    margin: 50px auto;
+}
+
+h2 {
+    color: blue;
+    font-size: 44px;
+    text-align: center;
+}
+
+h3 {
+    font-size: 24px;
+    text-align: center;
+}
+/*FORMULARIO*/
+form {
+    width: 976px;
+    margin-left: 2px;
+    margin-right: 2px;
+    padding-right: 20px;
+    padding-left: 20px;
+    border: 1px solid black;
+    border-radius: 20px;
+    background-color: lightyellow;
+}
+

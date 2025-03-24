@@ -1,0 +1,9 @@
+[21-Mar-2025 13:00:11 UTC] PHP Warning:  Undefined variable $idJesuita in /home/user1daw/public_html/19/lm/proyecto/Visita.php on line 32
+[21-Mar-2025 13:00:14 UTC] PHP Warning:  Undefined variable $idJesuita in /home/user1daw/public_html/19/lm/proyecto/Visita.php on line 32
+[23-Mar-2025 15:40:31 UTC] PHP Warning:  Undefined array key "nombrejesuita" in /home/user1daw/public_html/19/lm/proyecto/introducir.php on line 12
+[23-Mar-2025 15:40:31 UTC] PHP Warning:  Undefined array key "codigo" in /home/user1daw/public_html/19/lm/proyecto/introducir.php on line 13
+[23-Mar-2025 15:40:31 UTC] PHP Warning:  Undefined array key "nombrealu" in /home/user1daw/public_html/19/lm/proyecto/introducir.php on line 14
+[23-Mar-2025 15:40:31 UTC] PHP Warning:  Undefined array key "firmaE" in /home/user1daw/public_html/19/lm/proyecto/introducir.php on line 15
+[23-Mar-2025 15:40:31 UTC] PHP Warning:  Undefined array key "firmaI" in /home/user1daw/public_html/19/lm/proyecto/introducir.php on line 16
+[23-Mar-2025 15:41:08 UTC] PHP Warning:  Undefined variable $idJesuita in /home/user1daw/public_html/19/lm/proyecto/Visita.php on line 32
+[23-Mar-2025 15:41:11 UTC] PHP Warning:  Undefined variable $idJesuita in /home/user1daw/public_html/19/lm/proyecto/Visita.php on line 32
